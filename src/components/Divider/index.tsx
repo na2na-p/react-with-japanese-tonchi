@@ -1,5 +1,5 @@
 import React from 'react';
-import {Divider, SxProps} from '@mui/material';
+import { Divider, SxProps } from '@mui/material';
 
 export default () => {
 	const sx: SxProps = {

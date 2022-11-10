@@ -1,12 +1,12 @@
-import React, {Dispatch, SetStateAction, ChangeEvent} from 'react';
+import React, { Dispatch, SetStateAction, ChangeEvent } from 'react';
 
-import {TextField} from '@mui/material';
+import { TextField } from '@mui/material';
 
 type ChildProps = {
 	setName: Dispatch<SetStateAction<string>>
 }
 
-export default ({setName}: ChildProps) => {
+export default ({ setName }: ChildProps) => {
 	const textFieldOnChange = (
 		e: ChangeEvent<HTMLTextAreaElement | HTMLInputElement>
 	) => {
